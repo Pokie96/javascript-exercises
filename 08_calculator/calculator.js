@@ -3,11 +3,15 @@ const add = function(a, b) {
 };
 
 const subtract = function(a, b) {
-	
+	return a - b;
 };
 
-const sum = function() {
-	
+const sum = function(array) {
+  let total = 0;
+	for (number in array){
+    total += number;
+  }
+  return total;
 };
 
 const multiply = function() {
